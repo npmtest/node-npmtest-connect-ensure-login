@@ -1,6 +1,6 @@
 # npmtest-connect-ensure-login
 
-#### test coverage for  [connect-ensure-login (v0.1.1)](https://github.com/jaredhanson/connect-ensure-login#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-connect-ensure-login.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-connect-ensure-login) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-connect-ensure-login.svg)](https://travis-ci.org/npmtest/node-npmtest-connect-ensure-login)
+#### basic test coverage for  [connect-ensure-login (v0.1.1)](https://github.com/jaredhanson/connect-ensure-login#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-connect-ensure-login.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-connect-ensure-login) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-connect-ensure-login.svg)](https://travis-ci.org/npmtest/node-npmtest-connect-ensure-login)
 
 #### Login session ensuring middleware for Connect.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-connect-ensure-login/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-connect-ensure-login/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-connect-ensure-login/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-connect-ensure-login/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-connect-ensure-login/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-connect-ensure-login/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-connect-ensure-login/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-connect-ensure-login/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-connect-ensure-login/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-connect-ensure-login/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-connect-ensure-login/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-connect-ensure-login/build/coverage.html/index.html)
 
@@ -87,7 +87,8 @@
     "scripts": {
         "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
     },
-    "version": "0.1.1"
+    "version": "0.1.1",
+    "bin": {}
 }
 ```
 
